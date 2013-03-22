@@ -1,0 +1,23 @@
+{
+  "name": "grunt-azure-storage",
+  "version": "0.0.1",
+  "description": "Copy files to azure blob storage",
+  "author": "Ketil Albertsen",
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "homepage": "https://github.com/litek/grunt-azure-storage",
+  "bugs": "https://github.com/litek/grunt-azure-storage/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litek/grunt-azure-storage.git"
+  },
+  "dependencies": {
+    "azure": "~0.6.11",
+    "mime": "~1.2.9"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2"
+  }
+}
