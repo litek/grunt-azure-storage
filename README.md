@@ -16,3 +16,16 @@ Custom connection arguments can be set in service.
   gzip: false // gzip files
 };
 ```
+
+## Gruntfile example
+```javascript
+grunt.initConfig({
+  'azure-storage': {
+    options: {
+      containerName: 'assets',
+      gzip: true
+    },
+    files: 'assets/**/*'
+  }
+});
+```
